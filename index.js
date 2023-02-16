@@ -40,7 +40,7 @@ function fazerPergunta() {
   elementoResposta.innerHTML = pergunta + respostas[numeroAleatorio]
 
   elementoResposta.style.opacity = 1;
-
+ // teste 
   setTimeout(function() {
     elementoResposta.style.opacity = 0;
     buttonPerguntar.removeAttribute("disabled")
